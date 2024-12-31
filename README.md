@@ -32,11 +32,9 @@ interpreter.analyze_model(sample_input, target_class=0)
 ```
 
 ## Project Structure
-- `data/`: Directory for dataset storage
 - `models/`: Model definitions
 - `src/`: Core implementation
 - `notebooks/`: Example notebooks
-- `tests/`: Unit tests
 
 ## Requirements
 - Python 3.8+
