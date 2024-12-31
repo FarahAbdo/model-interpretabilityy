@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 def plot_activations(activations):
     # Detach the tensor from the computation graph before converting to NumPy
-    activations = activations.detach().cpu()  # Ensure it's on the CPU if it's on a GPU
+    activations = activations.detach().cpu() 
     if len(activations.shape) > 2:
         activations = activations.mean(dim=0)
     
